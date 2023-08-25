@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import './App.css'
 import { fetchDataFromApi } from './utils/api'
-import Spinner from './components/spinner';
+import Spinner from './components/Spinner';
 import MainContent from './components/MainContent';
 
 function App() {
