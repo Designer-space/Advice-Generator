@@ -14,7 +14,7 @@ const MainContent = ( {data, handleClick} ) => {
           <source media="(min-width: 400px)" srcSet={ Desk_Divider } />
           <img src={ Mob_Divider } alt="" aria-hidden="true" />
         </picture>
-        <button onClick={() =>{ handleClick() }} className='w-16 h-16 bg-accent-300 grid place-content-center rounded-full absolute bottom-0 left-2/4 -translate-x-2/4 translate-y-2/4 hover:shadow-[0px_0px_30px_2px_rgba(83,255,171,1)] transition-shadow transi hover:delay-100 hover:duration-300'><img src={ Dice } alt="" /></button>
+        <button onClick={() =>{ handleClick() }} aria-label='search for next advice' className='w-16 h-16 bg-accent-300 grid place-content-center rounded-full absolute bottom-0 left-2/4 -translate-x-2/4 translate-y-2/4 hover:shadow-[0px_0px_30px_2px_rgba(83,255,171,1)] transition-shadow transi hover:delay-100 hover:duration-300'><img src={ Dice } alt="" /></button>
       </div>
     </>
   )
